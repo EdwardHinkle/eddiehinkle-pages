@@ -28,7 +28,7 @@ twitter_username: eddiehinkle
 github_username:  edwardhinkle
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
