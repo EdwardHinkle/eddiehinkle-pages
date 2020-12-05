@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<h1>EddieHinkle.com is under repair and redesign. A limit number of posts are available.</h1>
+<em>EddieHinkle.com is under repair and redesign. A limited number of posts are available.</em>
 
-<a href="https://twitter.com/eddiehinkle" rel="me">Find me on Twitter</a>
-<a href="https://github.com/edwardhinkle" rel="me">Find me on GitHub</a>
+<a href="https://twitter.com/eddiehinkle" rel="me"></a>
+<a href="https://github.com/edwardhinkle" rel="me"></a>
