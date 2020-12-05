@@ -23,7 +23,7 @@ email: hey@eddiehinkle.com
 description: >- # this means to ignore newlines until "baseurl:"
   Husband of 1, Father of 2. Director of UX at ThreatConnect. Two Dads Co-Host. Thoughts are mine. ✝️
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://eddiehinkle.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eddiehinkle
 github_username:  edwardhinkle
 
