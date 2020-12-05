@@ -1,0 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+<h1>EddieHinkle.com is under repair and redesign. A limit number of posts are available.</h1>
+
+<a href="https://twitter.com/eddiehinkle" rel="me">Find me on Twitter</a>
+<a href="https://github.com/edwardhinkle" rel="me">Find me on GitHub</a>
