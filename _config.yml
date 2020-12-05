@@ -28,7 +28,7 @@ twitter_username: eddiehinkle
 github_username:  edwardhinkle
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 

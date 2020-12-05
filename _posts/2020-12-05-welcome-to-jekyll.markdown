@@ -3,6 +3,7 @@ layout: post
 title:  "Advent Week 1: Hope"
 date:   2020-12-05 10:08:40 -0500
 categories: advent faith
+permalink: '/:year/:month/:day/1/article/'
 ---
 Growing up, we had Advent candles. There are 5 candles in a set, one that gets lit each Sunday leading up to Christmas, and then the final, fifth candle that gets lit on Christmas Eve or Day. Each candle represents a "theme" of Advent. As we've been doing it this year, I've been thinking about and reflecting on the theme of each week. Hope is a fitting theme to start the Advent season with considering everything that has happened in 2020. Here are some thoughts I'd had on Hope this week.
 
