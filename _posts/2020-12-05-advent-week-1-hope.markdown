@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Advent Week 1: Hope"
+title:  "Reflections on Hope. Advent Week 1"
 date:   2020-12-05 10:08:40 -0500
 categories: advent faith
 permalink: '/:year/:month/:day/1/article/'
