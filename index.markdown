@@ -4,6 +4,8 @@
 
 layout: home
 ---
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 <em>EddieHinkle.com is under repair and redesign. A limited number of posts are available.</em>
 
 <a href="https://twitter.com/eddiehinkle" rel="me"></a>
