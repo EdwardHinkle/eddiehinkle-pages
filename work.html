@@ -17,9 +17,10 @@ layout: work
     <ul>
         {% for work in site.data.work_history %}
         <li class="card">
-            <div class="location-side">
-                <div class="grow-item">
-                    <a href="{{work.companyUrl}}" class="primary-color">{{work.company}}</a> | <em>{{work.position}}</em>
+            <div class="location-side-collapsable">
+                <div class="grow-item location-side-collapsable line-seperated">
+                    <a href="{{work.companyUrl}}" class="primary-color">{{work.company}}</a>
+                    <em>{{work.position}}</em>
                 </div>
                 <div class="primary-color">{{work.date}}</div>
             </div>
@@ -31,7 +32,7 @@ layout: work
 
 
 <div class="feedback fullwidth spacing-medium">
-        <div class="location-side grow">
+        <div class="location-side-collapsable grow">
             <div class="location-side">
                 <h2 class="primary-color headline-medium">Recommendations</h2>
                 <img class="headline-image" src="assets/images/thumbsup.png">
@@ -42,7 +43,7 @@ layout: work
             {% for recommendation in site.data.recommendations %}
             <li class="card">
                 <div class="feedback-content">{{recommendation.content}}</div>
-                <div class="location-side">
+                <div class="location-side-collapsable">
                     <div class="grow-item">
                         <a href="{{recommendation.url}}" class="primary-color"><em>{{recommendation.name}}</em></a> | <span>{{recommendation.position}} @ {{recommendation.company}}</span>
                     </div>
