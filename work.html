@@ -1,0 +1,54 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: work
+---
+<div class="primary-background fullframe background-peep background-wave spacing-medium">
+<p class="headline-large">Hey, I'm Eddie!</p>
+<p class="headline-small width-large">I manage <em>people</em>, <em>processes</em> and <em>software development</em> through a <em>human-centered</em> interaction paradigm. Everything in life, whether our <em>daily work</em> or the <em>software we use</em> should feel natively human and engage us both <strong>emotionally</strong> and <strong>cognitively</strong>.</p>
+</div>
+
+<div class="feedback fullwidth spacing-medium">
+    <div class="location-side">
+        <h2 class="primary-color headline-medium">Experience</h2>
+        <img class="headline-image" src="assets/images/on_computer.png">
+    </div>    
+    <ul>
+        {% for work in site.data.work_history %}
+        <li class="card">
+            <div class="location-side">
+                <div class="grow-item">
+                    <a href="{{work.companyUrl}}" class="primary-color">{{work.company}}</a> | <em>{{work.position}}</em>
+                </div>
+                <div class="primary-color">{{work.date}}</div>
+            </div>
+            <div class="feedback-content">{{work.summary}}</div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+<div class="feedback fullwidth spacing-medium">
+        <div class="location-side grow">
+            <div class="location-side">
+                <h2 class="primary-color headline-medium">Recommendations</h2>
+                <img class="headline-image" src="assets/images/thumbsup.png">
+            </div>
+            <p class="headline-xsmall">How someone is to work with is just as important as what they can do. Here is what some of my past co-workers have said about working with me.</p>
+        </div>
+        <ul>
+            {% for recommendation in site.data.recommendations %}
+            <li class="card">
+                <div class="feedback-content">{{recommendation.content}}</div>
+                <div class="location-side">
+                    <div class="grow-item">
+                        <a href="{{recommendation.url}}" class="primary-color"><em>{{recommendation.name}}</em></a> | <span>{{recommendation.position}} @ {{recommendation.company}}</span>
+                    </div>
+                    <div>Written on {{recommendation.published}}</div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>

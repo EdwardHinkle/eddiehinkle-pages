@@ -1,0 +1,62 @@
+[
+    {
+        "type": "Work",
+        "date": "Since 2017",
+        "position": "Engineering Director, User Experience",
+        "company": "ThreatConnect, Inc.",
+        "companyUrl": "https://www.threatconnect.com/",
+        "summary": "I helped the team of designers and developers to be efficient by helping to reduce context shifting as much as possible, kept top priorities clear amid changing schedules, and encouraged team collaboration through both peer code reviews or pair programming. I believe the most important part of my is regular 1:1 meetings with each of my team members to invest in their success and encourage their growth.<br><br>While scaling the user experience team, I developed new hiring, on-boarding and training processes, including a performance management process to ensure proper feedback and mentoring of the growing team. Part of this doubling in size was, in part, due to creating a Design team, which never existed at ThreatConnect previously.<br><br>I co-led a cross-department effort between engineering and product management to revitalize our product development process to be more effective and efficient, including an effort to reconfigure our use of Jira from three disjointed projects into one.<br><br>I planned and led virtual offsite meetings across engineering, product management as well as the user experience team. I participated in an effort to refresh our company vision, mission and core values."
+    },
+    {
+        "type": "Work",
+        "date": "2015 - 2017",
+        "position": "Senior Software Engineer",
+        "company": "Maestro, LLC",
+        "companyUrl": "https://meetmaestro.com",
+        "summary": "I helped lead the services team of Maestro to develop and build beautiful marketing and learning solutions working for clients such as Google, Franklin Covey, Framework Homeownership, Wright Medical.<br><br>The technologies I’ve used to make solutions for clients are: <strong>Angular</strong>, <strong>Node.js</strong>, <strong>Backbone</strong>, <strong>TypeScript</strong>, <strong>Rails</strong>, <strong>Ionic</strong>, <strong>Sass</strong>, <strong>Angular Material</strong>, <strong>Foundation</strong>, <strong>Bootstrap</strong> and the <strong>Adapt Framework</strong>. Most of our projects are <strong>Scorm-compliant</strong> e-learning courses."
+    },
+    {
+        "type": "Freelance",
+        "date": "2013 - 2016",
+        "position": "Owner",
+        "company": "EH Studio",
+        "summary": "I’ve worked with local churches and a local gym to design and develop modern websites that allow for simplified communication and marketing, while providing intuitive user interfaces."
+    },
+    {
+        "type": "Work",
+        "date": "2011 - 2015",
+        "position": "Geospatial Software Engineer",
+        "company": "USAID / Macfadden",
+        "companyUrl": "https://usaid.gov",
+        "summary": "Worked as a Macfadden contractor assigned to a USAID internal product development team. My work covered Frontend Development using <strong>Backbone.js</strong> and <strong>Handlebars.js</strong>. Geospatial Integration using both <strong>Leaflet.js</strong> and <strong>ArcGIS APIs</strong>. Interactive Data Visualizations using <strong>d3.js</strong>. I also contributed to the Backend Development of a REST API in <strong>PHP</strong> as a custom module in <strong>Drupal 6.</strong>"
+    },
+    {
+        "type": "Work",
+        "date": "2010 - 2011",
+        "position": "Family Room Specialist / Mentor",
+        "company": "Apple, Inc",
+        "summary": "I taught customers how to use iPhones, iPads and iMacs in both individual-based sessions as well as group-based workshops. I observed and mentored other employees on Apple cultural interactions."
+    },
+    {
+        "type": "Work",
+        "date": "2009 - 2010",
+        "position": "Biology Dept. Network Administrator",
+        "company": "University of Hawaii",
+        "companyUrl": "https://www.hawaii.edu",
+        "summary": "I ensured the network continued to function and improved the public-facing department website. Re-branded and updating site for contemporary design and intuitive user interaction."
+    },
+    {
+        "type": "Freelance",
+        "date": "2006 - 2009",
+        "position": "Owner",
+        "company": "Studio6Twelve",
+        "summary": "I worked with universities, non-profits, realtors, and small business clients to analyze, design, develop, test, and host their software development projects and website designs."
+    },
+    {
+        "type": "Work",
+        "date": "2007 - 2008",
+        "position": "Chief Information Officer",
+        "company": "World Surf Engine",
+        "summary": "I helped build a start-up company with the CEO by helping to establish business goals and development. I built and designed a web application using PHP, CSS, and JavaScript. Site provided user interaction, communication and information on surfing and other water-related excursions."
+    }
+]

@@ -8,6 +8,8 @@ layout: home
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 <link rel="microsub" href="https://aperture.p3k.io/microsub/577">
 <em>EddieHinkle.com is under repair and redesign. A limited number of posts are available.</em>
+<br><br>
+If you are looking for my work experience, you can find that <a href="/work">here</a>.
 
 <a href="https://twitter.com/eddiehinkle" rel="me"></a>
 <a href="https://github.com/edwardhinkle" rel="me"></a>
