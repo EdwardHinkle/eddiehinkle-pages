@@ -1,0 +1,95 @@
+.headline-large {
+    font-size: 4rem;
+    margin: 0;
+    padding: 12px 0;
+}
+
+.headline-medium {
+    font-size: 3rem;
+    margin: 0;
+    padding: 3px 0;
+}
+
+.headline-small {
+    font-size: 2rem;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.headline-xsmall {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1px 0;
+}
+
+.headline-image {
+    height: 3rem;
+    flex: unset !important;
+}
+
+em {
+    color: var(--strong-color);
+    font-weight: 900;
+    font-style: normal;
+}
+
+strong {
+    color: var(--main-color);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.primary-background strong {
+    color: var(--accent-color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .headline-large {
+        font-size: 10rem;
+        margin: 0;
+        padding: 8px 0;
+    }
+    
+    .headline-medium {
+        font-size: 6rem;
+        margin: 0;
+        padding: 6px 0;
+    }
+    
+    .headline-small {
+        font-size: 4rem;
+        margin: 0;
+        padding: 4px 0;
+    }
+    
+    .headline-xsmall {
+        font-size: 1.9rem;
+        margin: 0;
+        padding: 2px 0;
+    }
+    
+    .headline-image {
+        height: 6rem;
+    }
+}

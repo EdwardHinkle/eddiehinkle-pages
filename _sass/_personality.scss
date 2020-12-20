@@ -1,0 +1,45 @@
+.background-wave::before {
+    content: "";
+    position: absolute;
+    transform: rotate(-20deg) translate(0px) translate3d(0, 0, 0);
+    animation: enter 4s cubic-bezier(.36,.07,.19,.97);
+    background-image: url(/assets/images/high_wave.png);
+    background-repeat: no-repeat;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .background-wave::before {
+        width: 300px;
+        height: 300px;
+        bottom: -35px;
+        right: -55px;
+        background-size: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .background-wave::before {
+        background-size: 425px;
+        width: 370px;
+        height: 425px;
+        bottom: -40px;
+        right: -75px;
+    }
+}

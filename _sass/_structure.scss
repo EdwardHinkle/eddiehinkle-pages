@@ -1,0 +1,79 @@
+.fullframe {
+    min-height: calc(100vh - 20px);
+    min-height: --webkit-fill-available;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.width-large {
+    width: 95%;
+}
+
+.width-medium {
+    width: 50%;
+}
+
+.location-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location-side.grow > * {
+    flex: 1;
+}
+
+.grow-item {
+    flex-grow: 2;
+}
+
+.spacing-medium {
+    padding: 1rem;
+}
+
+.card {
+    display: block;
+    list-style-type: none;
+    width: 95%;
+    padding: 16px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card {
+        width: 50%;
+        max-width: 1000px;
+    }
+    
+    .width-large {
+        width: 80%;
+    }
+    
+    .spacing-medium {
+        padding: 10rem 5rem;
+    }
+}
