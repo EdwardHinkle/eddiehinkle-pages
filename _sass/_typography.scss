@@ -65,7 +65,38 @@ strong {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    body {
+        font-size: 1.5rem;
+    }
 
+    .headline-large {
+        font-size: 8rem;
+        margin: 0;
+        padding: 8px 0;
+    }
+    
+    .headline-medium {
+        font-size: 4rem;
+        margin: 0;
+        padding: 6px 0;
+    }
+    
+    .headline-small {
+        font-size: 3rem;
+        margin: 0;
+        padding: 4px 0;
+        line-height: initial;
+    }
+    
+    .headline-xsmall {
+        font-size: 1.9rem;
+        margin: 0;
+        padding: 2px 0;
+    }
+    
+    .headline-image {
+        height: 6rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -90,6 +121,7 @@ strong {
         font-size: 4rem;
         margin: 0;
         padding: 4px 0;
+        line-height: initial;
     }
     
     .headline-xsmall {

@@ -44,8 +44,9 @@ layout: work
             <li class="card">
                 <div class="feedback-content">{{recommendation.content}}</div>
                 <div class="location-side-collapsable">
-                    <div class="grow-item">
-                        <a href="{{recommendation.url}}" class="primary-color"><em>{{recommendation.name}}</em></a> | <span>{{recommendation.position}} @ {{recommendation.company}}</span>
+                    <div class="grow-item location-side-collapsable line-seperated">
+                        <a href="{{recommendation.url}}" class="primary-color"><em>{{recommendation.name}}</em></a>
+                        <span>{{recommendation.position}} @ {{recommendation.company}}</span>
                     </div>
                     <div>Written on {{recommendation.published}}</div>
                 </div>

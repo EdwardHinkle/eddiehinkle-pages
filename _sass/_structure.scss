@@ -1,6 +1,6 @@
 .fullframe {
     min-height: calc(100vh - 20px);
-    min-height: --webkit-fill-available;
+    max-height: --webkit-fill-available;
     width: 100vw;
     position: relative;
     overflow: hidden;
@@ -90,7 +90,9 @@
         align-items: center;
     }
 
-    .location-side-collapsable.line-seperated {
-        border-left: 1px solid var(--standard-color);
+    .location-side-collapsable.line-seperated > *:not(:first-child) {
+        border-left: 2px solid var(--standard-color);
+        margin-left: 12px;
+        padding-left: 12px;
     }
 }
